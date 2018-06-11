@@ -1,0 +1,64 @@
+@import 'normalize/variables';
+@import 'normalize/vertical-rhythm';
+@import 'normalize/normalize-mixin';
+
+body {
+    margin: 5mm 20mm;
+}
+
+//=====================================
+// Header
+//=====================================
+
+header {
+    background-color: hsl(118, 100%, 82%);
+}
+
+#logoContainer {
+    display: flex;
+    justify-content: center;
+    height: 36mm;
+}
+
+#logo {
+    position: relative;
+    top: -13mm;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#logoPlateImage {
+    position: relative;
+    top: 8mm;
+    height: auto;
+    width: auto;
+    max-width: 23mm;
+    max-height: 23mm;
+}
+
+#logoAppName {
+    margin: 0;
+}
+
+#logoScaleImage {
+    height: auto;
+    width: auto;
+    max-height: 15mm;
+    max-width: 15mm;
+}
+
+#headerButtonContainer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3mm;
+}
+
+#navBar {
+    display: flex;
+    width: 100mm;
+    justify-content: space-around;
+}
+//=====================================
+// End Header 
+//=====================================

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -15,10 +15,34 @@
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
 
+    <link href="./style/main.css" rel="stylesheet" />
+
   </head>
   <body>
 	  <header>
 
+          <section id="logoContainer" >
+              <div id="logo">
+                  <img id="logoPlateImage"src="https://image.flaticon.com/icons/svg/26/26852.svg" />
+                  <h1 id="logoAppName">Mealamatician</h1>
+                  <img id="logoScaleImage" src="https://image.flaticon.com/icons/svg/45/45327.svg" />
+              </div>
+          </section>
+          
+          <section id="headerButtonContainer">
+              <nav id="navBar">
+                  <a>Home</a>
+                  <a>Ingredients</a>
+                  <a>Calories</a>
+                  <a>About Us</a>
+                  <a>Contact</a>
+              </nav>
+
+              <section id="signUpIn">
+                  <button >Log In</button>
+                  <button >Sign Up</button>
+              </section>
+          </section>
 	  </header>
 
   </body>
