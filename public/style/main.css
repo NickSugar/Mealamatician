@@ -1,0 +1,99 @@
+body {
+  margin: 5mm 20mm;
+  background-color: darkgray;
+}
+
+header {
+  background-color: #a6ffa3;
+}
+
+#logoContainer {
+  display: flex;
+  justify-content: center;
+  height: 36mm;
+}
+
+#logo {
+  position: relative;
+  top: -13mm;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+#logoPlateImage {
+  position: relative;
+  top: 8mm;
+  height: auto;
+  width: auto;
+  max-width: 23mm;
+  max-height: 23mm;
+}
+
+#logoAppName {
+  margin: 0;
+}
+
+#logoScaleImage {
+  height: auto;
+  width: auto;
+  max-height: 15mm;
+  max-width: 15mm;
+}
+
+#headerButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3mm;
+}
+
+#navBar {
+  display: flex;
+  width: 100mm;
+  justify-content: space-around;
+}
+
+#landingBackgroundImage {
+  max-width: 100%;
+  opacity: 0.25;
+}
+
+#welcomeText {
+  position: absolute;
+  max-width: 50vw;
+  left: 25vw;
+  top: 80mm;
+  font-size: 10mm;
+  font-weight: bolder;
+  color: black;
+}
+
+#startMealBuilder {
+  position: absolute;
+  top: 70mm;
+  width: 45vw;
+  left: 26vw;
+  height: 15mm;
+  font-size: 10mm;
+  font-style: italic;
+  color: #b8f8ff;
+  background-color: #231d86;
+  border-radius: 5mm;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  height: 101mm;
+  background-color: rgba(86, 109, 129, 0.57);
+  bottom: 100mm;
+  position: relative;
+}
+
+.socialMediaIcon {
+  max-height: 15mm;
+}
+
+/*# sourceMappingURL=public/style/main.css.map */

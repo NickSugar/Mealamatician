@@ -2,3 +2,5 @@ node_modules
 firebase.json
 package-lock.json
 .firebaserc
+.vs/
+.vs/slnx.sqlite
