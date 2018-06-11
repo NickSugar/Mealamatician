@@ -4,6 +4,7 @@
 
 body {
     margin: 5mm 20mm;
+    background-color: darkgray;
 }
 
 //=====================================
@@ -61,4 +62,63 @@ header {
 }
 //=====================================
 // End Header 
+//=====================================
+
+
+//=====================================
+// Landing Info Section 
+//=====================================
+
+#landingBackgroundImage {
+    max-width: 100%;
+    opacity: 0.25;
+}
+
+#welcomeText {
+    position: absolute;
+    max-width: 50vw;
+    left: 25vw;
+    top: 80mm;
+    font-size: 10mm;
+    font-weight: bolder;
+    color: hsla(0, 0%, 0%, 1);
+}
+
+#startMealBuilder {
+    position: absolute;
+    top: 70mm;
+    width: 45vw;
+    left: 26vw;
+    height: 15mm;
+    font-size: 10mm;
+    font-style: italic;
+    color: hsl(186, 100%, 86%);
+    background-color: hsl(243, 64%, 32%);
+    border-radius: 5mm;
+}
+//=====================================
+// End Landing Info Section 
+//=====================================
+
+//=====================================
+// Footer
+//=====================================
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    height: 101mm;
+    background-color: hsla(208, 20%, 42%, 0.57);
+    bottom: 100mm;
+    position: relative;
+}
+
+.socialMediaIcon {
+    max-height: 15mm;
+}
+
+//=====================================
+// End Footer
 //=====================================
