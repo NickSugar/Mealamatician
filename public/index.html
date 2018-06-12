@@ -19,6 +19,7 @@
 
     <script src="./js/app.js"></script>
     <script defer src="./headerComponent/headerCtrl.js"></script>
+    <script defer src="./footerComponent/footerCtrl.js"></script>
 
   </head>
   <body>
@@ -35,27 +36,9 @@
           </section>
       </main>
 
-      <footer>
-          <section id="siteMapSection">
-              <nav id="siteMapNav">
-                  <a>Home</a>
-                  <a>Meal Builder</a>
-                  <a>Contact</a>
-                  <a>About Us</a>
-                  <a>Collaboration</a>
-                  <a>Investors</a>
-                  <a>Jobs</a>
-                  <a>Privacy Policy</a>
-              </nav>
-          </section>
-
-          <small>&copy; Copyright 2018<script>new Date().getFullYear() > 2018 && document.write("-" + new Date().getFullYear());</script>, Nick Sugar.</small>
-          <section id="socialMediaSection">
-              <img class="socialMediaIcon" id="githubIcon" onclick="window.open('https://github.com/NickSugar/Mealamatician')" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_six_black-512.png" />
-              <img class="socialMediaIcon" id="linkedinIcon" onclick="window.open('https://www.linkedin.com/in/nicksugar1/')" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_six_black-512.png" />
-              <img class="socialMediaIcon" id="twitterIcon" onclick="window.open('https://twitter.com/nicksugar11')" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_six_black-512.png" />
-          </section>
-      </footer>
+      <div id="footerContainer">
+          <script>loadComponent('footer', 'footerContainer')</script>
+      </div>
       
   </body>
 </html>
