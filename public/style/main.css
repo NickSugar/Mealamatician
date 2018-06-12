@@ -84,16 +84,39 @@ header {
 footer {
   display: flex;
   justify-content: space-around;
-  display: flex;
-  justify-content: space-around;
   height: 101mm;
   background-color: rgba(86, 109, 129, 0.57);
-  bottom: 100mm;
   position: relative;
+  align-items: center;
 }
 
 .socialMediaIcon {
   max-height: 15mm;
+}
+
+#socialMediaSection .socialMediaIcon:hover {
+  max-height: 18mm;
+}
+
+#socialMediaSection {
+  width: 190px;
+}
+
+#siteMapNav {
+  display: flex;
+  flex-direction: column;
+  width: 116px;
+}
+
+#siteMapNav a {
+  margin-bottom: 1mm;
+}
+
+#siteMapNav a:hover {
+  color: darkred;
+  font-size: 3mm;
+  font-weight: bold;
+  font-size: 5mm;
 }
 
 /*# sourceMappingURL=public/style/main.css.map */
