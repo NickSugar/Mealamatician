@@ -1,11 +1,22 @@
 
 
-var getHTMLsnippet = function (url) {
+var loadComponent = function (componentName, appendToElementID) {
+
+    var url = '../' + componentName + 'Component/' + componentName + '.html';
+    var appendToElement;
+
+    if (!appendToElementID) {
+        appendToElement = document.getElementById('router');
+    } else {
+        appendToElement = document.getElementById(appendToElementID)
+    }
+
     var request = new XMLHttpRequest();
-    var snippet;
 
     request.onreadystatechange = () => {
-        if (request.readyState == 4) snippet = request.responseText;
+        if (request.readyState == 4) {
+            appendHTMLsnippetTo(request.responseText, appendToElement);
+        }
     }
 
     request.open('GET', url);
@@ -13,8 +24,8 @@ var getHTMLsnippet = function (url) {
 }
 
 
-var appendHTMLsnippet = function (HTMLsnippet, HTMLelementID) {
-    document.getElementById(HTMLelementID).innerHTML = HTMLsnippet;
+var appendHTMLsnippetTo = function (HTMLsnippet, appendToElement) {
+    appendToElement.innerHTML = HTMLsnippet;
 }
 
-getHTMLsnippet('../headerComponent/header.html');
+
