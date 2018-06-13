@@ -16,3 +16,26 @@
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
  Tue Jun 12 2018 21:13:50 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T04:13:50.720Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-13T04:13:50.729Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mealamatician  
+  
+ Tue Jun 12 2018 21:13:50 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T04:13:51.228Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-13T04:13:51.229Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mealamatician/tokens  
+  
+ Tue Jun 12 2018 21:13:51 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T04:13:51.663Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-13T04:13:51.664Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mealamatician  
+  
+ Tue Jun 12 2018 21:13:51 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T04:13:52.112Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Nick\Desktop\CodeFellows\Mealamatician'...
+[info] 
+[debug] [2018-06-13T04:13:52.114Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/54695057488/clients/_:getWebAppConfig  
+  
+ Tue Jun 12 2018 21:13:52 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T04:13:52.663Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
