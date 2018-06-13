@@ -1,4 +1,5 @@
 
+import { landingCtrl } from './landingComponent/landingCtrl.js';
 
 var loadComponent = function (componentName, appendToElementID) {
 
@@ -29,8 +30,11 @@ var appendHTMLsnippetTo = function (HTMLsnippet, appendToElement) {
 }
 
 window.onload = function (e) {
+
     if (window.location.pathname == '/' || '/landing') {
         loadComponent('landing');
     }
+
+    landingCtrl.initializeCtrl();
 }
 

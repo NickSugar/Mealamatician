@@ -1,41 +1,41 @@
-[debug] [2018-06-13T04:13:50.477Z] ----------------------------------------------------------------------
-[debug] [2018-06-13T04:13:50.479Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nick\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-06-13T04:13:50.480Z] CLI Version:   3.18.6
-[debug] [2018-06-13T04:13:50.480Z] Platform:      win32
-[debug] [2018-06-13T04:13:50.480Z] Node Version:  v8.9.1
-[debug] [2018-06-13T04:13:50.481Z] Time:          Tue Jun 12 2018 21:13:50 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-06-13T04:13:50.481Z] ----------------------------------------------------------------------
+[debug] [2018-06-13T21:24:07.129Z] ----------------------------------------------------------------------
+[debug] [2018-06-13T21:24:07.131Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nick\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-06-13T21:24:07.131Z] CLI Version:   3.18.6
+[debug] [2018-06-13T21:24:07.131Z] Platform:      win32
+[debug] [2018-06-13T21:24:07.131Z] Node Version:  v8.9.1
+[debug] [2018-06-13T21:24:07.132Z] Time:          Wed Jun 13 2018 14:24:07 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T21:24:07.132Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-06-13T04:13:50.491Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-06-13T04:13:50.491Z] > authorizing via signed-in user
-[debug] [2018-06-13T04:13:50.493Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-06-13T04:13:50.493Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-06-13T21:24:07.140Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-13T21:24:07.141Z] > authorizing via signed-in user
+[debug] [2018-06-13T21:24:07.142Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-13T21:24:07.142Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  { refresh_token: '1/PfZwYutGB_gY_rDJCYwVTr0i9n2iSOcwAGgpnvgcHZOdBmKv5XQz4EU_4EjzmFzK',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Tue Jun 12 2018 21:13:50 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-06-13T04:13:50.720Z] <<< HTTP RESPONSE 200
-[debug] [2018-06-13T04:13:50.729Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mealamatician  
+ Wed Jun 13 2018 14:24:07 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T21:24:07.345Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-13T21:24:07.357Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mealamatician  
   
- Tue Jun 12 2018 21:13:50 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-06-13T04:13:51.228Z] <<< HTTP RESPONSE 200
-[debug] [2018-06-13T04:13:51.229Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mealamatician/tokens  
+ Wed Jun 13 2018 14:24:07 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T21:24:08.051Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-13T21:24:08.052Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mealamatician/tokens  
   
- Tue Jun 12 2018 21:13:51 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-06-13T04:13:51.663Z] <<< HTTP RESPONSE 200
-[debug] [2018-06-13T04:13:51.664Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mealamatician  
+ Wed Jun 13 2018 14:24:08 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T21:24:08.529Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-13T21:24:08.530Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mealamatician  
   
- Tue Jun 12 2018 21:13:51 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-06-13T04:13:52.112Z] <<< HTTP RESPONSE 200
+ Wed Jun 13 2018 14:24:08 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T21:24:08.872Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\Nick\Desktop\CodeFellows\Mealamatician'...
 [info] 
-[debug] [2018-06-13T04:13:52.114Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/54695057488/clients/_:getWebAppConfig  
+[debug] [2018-06-13T21:24:08.875Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/54695057488/clients/_:getWebAppConfig  
   
- Tue Jun 12 2018 21:13:52 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-06-13T04:13:52.663Z] <<< HTTP RESPONSE 200
+ Wed Jun 13 2018 14:24:08 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-13T21:24:09.240Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
