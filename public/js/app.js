@@ -28,4 +28,9 @@ var appendHTMLsnippetTo = function (HTMLsnippet, appendToElement) {
     appendToElement.innerHTML = HTMLsnippet;
 }
 
+window.onload = function (e) {
+    if (window.location.pathname == '/' || '/landing') {
+        loadComponent('landing');
+    }
+}
 

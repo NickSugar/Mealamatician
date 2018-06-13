@@ -20,6 +20,7 @@
     <script src="./js/app.js"></script>
     <script defer src="./headerComponent/headerCtrl.js"></script>
     <script defer src="./footerComponent/footerCtrl.js"></script>
+    <script defer src="./landingComponent/landingCtrl.js"></script>
 
   </head>
   <body>
@@ -28,13 +29,7 @@
           <script>loadComponent('header', 'headerContainer')</script>
       </div>
 
-      <main id="router">
-          <section id="landingInfo">
-              <img id="landingBackgroundImage" src="https://texashealthheart.files.wordpress.com/2011/10/food.jpg" />
-              <p id="welcomeText">Mealamatician is built for the beginner and seasoned (mind the pun) meal prepper alike. With this simple tool you will be able to work your way through the process of preparing meals that fit your specific needs, without needing to do all the research and math that is normally required. Mealamatician will tailor your portions based on your physical characteristics, activity level, results (i.e. losing, gaining of maintaining body mass) and on your planned meal schedule.</p>
-              <button id="startMealBuilder">Let’s go!!! I’m hungry!</button>
-          </section>
-      </main>
+      <main id="router"></main>
 
       <div id="footerContainer">
           <script>loadComponent('footer', 'footerContainer')</script>
