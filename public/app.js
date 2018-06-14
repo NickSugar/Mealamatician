@@ -1,5 +1,5 @@
 
-import { landingCtrl } from './landingComponent/landingCtrl.js'
+import { LandingCtrl } from './landingComponent/landingCtrl.js'
 
 var loadComponent = function (componentName, componentCtrl, appendToElementID) {
 
