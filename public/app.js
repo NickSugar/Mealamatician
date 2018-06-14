@@ -1,6 +1,7 @@
 
+import { landingCtrl } from './landingComponent/landingCtrl.js'
 
-var loadComponent = function (componentName, appendToElementID) {
+var loadComponent = function (componentName, componentCtrl, appendToElementID) {
 
     var url = '../' + componentName + 'Component/' + componentName + '.html';
     var appendToElement;
@@ -16,6 +17,7 @@ var loadComponent = function (componentName, appendToElementID) {
     request.onreadystatechange = () => {
         if (request.readyState == 4) {
             appendHTMLsnippetTo(request.responseText, appendToElement);
+            componentCtrl.init();
         }
     }
 
@@ -29,8 +31,18 @@ var appendHTMLsnippetTo = function (HTMLsnippet, appendToElement) {
 }
 
 window.onload = function (e) {
-    if (window.location.pathname == '/' || '/landing') {
-        loadComponent('landing');
-    }
+
+  //  if (window.location.pathname == '/' || '/landing') {
+ //       loadComponent('landing');
+//    }
 }
 
+    if (window.location.pathname == '/' || '/landing') {
+        loadComponent('landing', landingCtrl);
+    }
+
+    var header = document.getElementById('headerContainer');
+
+  //  if (header) {
+ //       loadComponent('header', 'headerContainer')
+//    }
