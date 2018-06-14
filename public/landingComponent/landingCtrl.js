@@ -11,13 +11,17 @@
 //}
 
 
-var LandingCtrl = function () { }; 
+var LandingCtrlCon = function () { }; 
 
-LandingCtrl.prototype.init = () => {
+var LandingCtrl = new LandingCtrlCon();
+
+LandingCtrlCon.prototype.init = () => {
 
     var mainLandingPageButton = document.getElementById('startMealBuilder');
 
     mainLandingPageButton.addEventListener('click', () => { console.log('test button') });
 }
+
+LandingCtrlCon.prototype.name = 'landing';
 
 export { LandingCtrl }

@@ -38,7 +38,7 @@ window.onload = function (e) {
 }
 
     if (window.location.pathname == '/' || '/landing') {
-        loadComponent('landing', landingCtrl);
+        loadComponent('landing', LandingCtrl);
     }
 
     var header = document.getElementById('headerContainer');
