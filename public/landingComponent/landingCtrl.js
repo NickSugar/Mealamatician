@@ -1,16 +1,13 @@
 
+var init = () => {
 
-function initializeCtrl() {
+var mainLandingPageButton = document.getElementById('startMealBuilder');
 
-    var mainLandingPageButton = document.getElementById('startMealBuilder');
-
-    mainLandingPageButton.addEventListener('click', () => {
-       
-    });
+mainLandingPageButton.addEventListener('click', () => { console.log('test button') });
 }
 
 var landingCtrl = {
-    initializeCtrl: initializeCtrl
+    init
 }
 
-export { landingCtrl };
+export { landingCtrl }
