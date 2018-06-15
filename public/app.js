@@ -1,5 +1,5 @@
 
-import { LandingCtrl } from './landingComponent/landingCtrl.js'
+import { landingCtrl } from './landingComponent/landingCtrl.js'
 
 var loadComponent = function (componentName, componentCtrl, appendToElementID) {
 
@@ -38,7 +38,7 @@ window.onload = function (e) {
 }
 
     if (window.location.pathname == '/' || '/landing') {
-        loadComponent('landing', LandingCtrl);
+        loadComponent('landing', landingCtrl);
     }
 
     var header = document.getElementById('headerContainer');
