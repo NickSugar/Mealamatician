@@ -4,19 +4,6 @@ import { headerCtrl } from './headerComponent/headerCtrl.js'
 import { footerCtrl } from './footerComponent/footerCtrl.js'
 import { calorieCalcCtrl } from './calorieCalcComponent/calorieCalcCtrl.js'
 
-var app = {
-    controllers: {
-        landingCtrl,
-        headerCtrl,
-        footerCtrl,
-        calorieCalcCtrl
-    },
-    helperFunctions: {
-        loadComponent
-    }
-}
-
-export { app }
 
 var loadComponent = function (componentCtrl, appendToElementID) {
 
@@ -63,3 +50,17 @@ if (footer) {
 window.onload = function (e) {
 
 }
+
+var app = {
+    controllers: {
+        landingCtrl,
+        headerCtrl,
+        footerCtrl,
+        calorieCalcCtrl
+    },
+    helperFunctions: {
+        loadComponent
+    }
+}
+
+export { app }

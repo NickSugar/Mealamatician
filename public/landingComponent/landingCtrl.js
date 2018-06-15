@@ -5,8 +5,8 @@ var init = () => {
 
 var mainLandingPageButton = document.getElementById('startMealBuilder')
 
-    mainLandingPageButton.addEventListener('click', () => {
-                
+mainLandingPageButton.addEventListener('click', () => {
+    app.helperFunctions.loadComponent(app.controllers.calorieCalcCtrl)
     })
 }
 
