@@ -1,9 +1,9 @@
 
 import { landingCtrl } from './landingComponent/landingCtrl.js'
 
-var loadComponent = function (componentName, componentCtrl, appendToElementID) {
+var loadComponent = function (componentCtrl, appendToElementID) {
 
-    var url = '../' + componentName + 'Component/' + componentName + '.html';
+    var url = '../' + componentCtrl.name + 'Component/' + componentCtrl.name + '.html';
     var appendToElement;
 
     if (!appendToElementID) {
@@ -37,11 +37,11 @@ window.onload = function (e) {
 //    }
 }
 
-    if (window.location.pathname == '/' || '/landing') {
-        loadComponent('landing', landingCtrl);
-    }
+if (window.location.pathname == '/' || '/landing') {
+    loadComponent(landingCtrl);
+}
 
-    var header = document.getElementById('headerContainer');
+var header = document.getElementById('headerContainer');
 
   //  if (header) {
  //       loadComponent('header', 'headerContainer')
