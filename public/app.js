@@ -52,12 +52,12 @@ if (window.location.pathname == '/' || '/landing') {
 
 var header = document.getElementById('headerContainer')
 if (header) {
-    loadComponent(headerCtrl)
+    loadComponent(headerCtrl, 'headerContainer')
 }
 
 var footer = document.getElementById('footerContainer')
 if (footer) {
-    loadComponent(footerCtrl)
+    loadComponent(footerCtrl, 'footerContainer')
 }
 
 window.onload = function (e) {
