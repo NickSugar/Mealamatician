@@ -26,7 +26,8 @@ var loadComponent = function (componentCtrl, appendToElementID) {
         if (request.readyState == 4) {
             appendHTMLsnippetTo(request.responseText, appendToElement)
             componentCtrl.init()
-            window.location.pathname = '/'+ componentCtrl.name
+            window.location.pathname = '/' + componentCtrl.name
+            console.log('tal;skjdf;aj')
         }
     }
 
