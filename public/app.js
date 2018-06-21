@@ -33,7 +33,7 @@ var loadComponent = function (componentCtrl, appendToElementID) {
     request.send()
 }
 
-if (window.location.pathname == '/' || '/landing') {
+if (window.location.pathname == ('/' || '/landing')) {
     loadComponent(landingCtrl)
 }
 
