@@ -1,6 +1,6 @@
 
 var init = () => {
-
+    window.history.pushState(null, '', '/calorieCalc')
 }
 
 var name = 'calorieCalc'

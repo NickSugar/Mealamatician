@@ -26,8 +26,6 @@ var loadComponent = function (componentCtrl, appendToElementID) {
         if (request.readyState == 4) {
             appendHTMLsnippetTo(request.responseText, appendToElement)
             componentCtrl.init()
-            window.location.pathname = '/' + componentCtrl.name
-            console.log('tal;skjdf;aj')
         }
     }
 
@@ -35,7 +33,7 @@ var loadComponent = function (componentCtrl, appendToElementID) {
     request.send()
 }
 
-if (window.location.pathname == '/' || '/landing') {
+if (window.location.pathname == ('/' || '/landing')) {
     loadComponent(landingCtrl)
 }
 
