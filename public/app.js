@@ -1,4 +1,6 @@
 
+import { router } from './router.js'
+
 import { landingCtrl } from './landingComponent/landingCtrl.js'
 import { headerCtrl } from './headerComponent/headerCtrl.js'
 import { footerCtrl } from './footerComponent/footerCtrl.js'
@@ -36,7 +38,7 @@ var loadComponent = function (componentCtrl, appendToElementID) {
 
 
 window.onload = function (e) {
-
+	router.init()
 }
 
 var app = {
