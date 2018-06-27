@@ -1,4 +1,6 @@
 
+import { router } from './router.js'
+
 import { landingCtrl } from './landingComponent/landingCtrl.js'
 import { headerCtrl } from './headerComponent/headerCtrl.js'
 import { footerCtrl } from './footerComponent/footerCtrl.js'
@@ -33,22 +35,10 @@ var loadComponent = function (componentCtrl, appendToElementID) {
     request.send()
 }
 
-if (window.location.pathname == ('/' || '/landing')) {
-    loadComponent(landingCtrl)
-}
 
-var header = document.getElementById('headerContainer')
-if (header) {
-    loadComponent(headerCtrl, 'headerContainer')
-}
-
-var footer = document.getElementById('footerContainer')
-if (footer) {
-    loadComponent(footerCtrl, 'footerContainer')
-}
 
 window.onload = function (e) {
-
+	router.init()
 }
 
 var app = {
