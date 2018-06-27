@@ -145,3 +145,29 @@ footer {
 //=====================================
 // End Footer
 //=====================================
+
+
+//=====================================
+// Calorie Form
+//=====================================
+
+#knownCalorieNum {
+    border: none;
+    background-color: lightgrey;
+    line-height: 1mm;
+    border-radius: 2mm;
+    padding: 2mm;
+    text-align: center;
+    width: 20mm;
+    font-family: monospace;
+}
+#knownCalorieNum:focus {
+	    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+//=====================================
+// End Calorie Form
+//=====================================
+

@@ -1,25 +1,21 @@
 body {
   margin: 5mm 20mm;
-  background-color: darkgray;
-}
+  background-color: darkgray; }
 
 header {
-  background-color: #a6ffa3;
-}
+  background-color: #a6ffa3; }
 
 #logoContainer {
   display: flex;
   justify-content: center;
-  height: 36mm;
-}
+  height: 36mm; }
 
 #logo {
   position: relative;
   top: -13mm;
   flex-direction: column;
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
 
 #logoPlateImage {
   position: relative;
@@ -27,36 +23,30 @@ header {
   height: auto;
   width: auto;
   max-width: 23mm;
-  max-height: 23mm;
-}
+  max-height: 23mm; }
 
 #logoAppName {
-  margin: 0;
-}
+  margin: 0; }
 
 #logoScaleImage {
   height: auto;
   width: auto;
   max-height: 15mm;
-  max-width: 15mm;
-}
+  max-width: 15mm; }
 
 #headerButtonContainer {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 3mm;
-}
+  padding-bottom: 3mm; }
 
 #navBar {
   display: flex;
   width: 100mm;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
 #landingBackgroundImage {
   max-width: 100%;
-  opacity: 0.25;
-}
+  opacity: 0.25; }
 
 #welcomeText {
   position: absolute;
@@ -65,8 +55,7 @@ header {
   top: 147mm;
   font-size: 10mm;
   font-weight: bolder;
-  color: black;
-}
+  color: black; }
 
 #startMealBuilder {
   position: absolute;
@@ -78,8 +67,7 @@ header {
   font-style: italic;
   color: #b8f8ff;
   background-color: #231d86;
-  border-radius: 5mm;
-}
+  border-radius: 5mm; }
 
 footer {
   display: flex;
@@ -87,36 +75,45 @@ footer {
   height: 101mm;
   background-color: rgba(86, 109, 129, 0.57);
   position: relative;
-  align-items: center;
-}
+  align-items: center; }
 
 .socialMediaIcon {
-  max-height: 15mm;
-}
+  max-height: 15mm; }
 
 #socialMediaSection .socialMediaIcon:hover {
-  max-height: 18mm;
-}
+  max-height: 18mm; }
 
 #socialMediaSection {
-  width: 190px;
-}
+  width: 190px; }
 
 #siteMapNav {
   display: flex;
   flex-direction: column;
-  width: 116px;
-}
+  width: 116px; }
 
 #siteMapNav a {
-  margin-bottom: 1mm;
-}
+  margin-bottom: 1mm; }
 
 #siteMapNav a:hover {
   color: darkred;
   font-size: 3mm;
   font-weight: bold;
-  font-size: 5mm;
-}
+  font-size: 5mm; }
 
-/*# sourceMappingURL=public/style/main.css.map */
+#knownCalorieNum {
+  border: none;
+  background-color: lightgrey;
+  line-height: 1mm;
+  border-radius: 2mm;
+  padding: 2mm;
+  text-align: center;
+  width: 20mm;
+  font-family: monospace; }
+
+#knownCalorieNum:focus {
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9; }
+
+/*# sourceMappingURL=main.css.map */
