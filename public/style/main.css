@@ -147,4 +147,15 @@ footer {
   font-weight: bold;
 }
 
+#knownCaloriesForm button {
+  width: 100%;
+  border-radius: 2mm;
+  border: none;
+  height: 5vh;
+  background-color: lightskyblue;
+  font-weight: 900;
+  font-size: 1em;
+  color: whitesmoke;
+}
+
 /*# sourceMappingURL=public/style/main.css.map */
