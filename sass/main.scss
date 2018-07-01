@@ -181,8 +181,9 @@ footer {
 #knownCaloriesForm button {
     width: 100%;
     border-radius: 2mm;
-    border: none;
+    border: 2px solid hsl(189, 49%, 52%);
     height: 5vh;
+    box-shadow: 2px 4px 6px 2px darkslategrey;
     background-color: lightskyblue;
     font-weight: 900;
     font-size: 1em;
